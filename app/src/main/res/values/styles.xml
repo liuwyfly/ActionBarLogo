@@ -6,6 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/MyActionBarLogo</item>
     </style>
 
+    <style name="MyActionBarLogo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="logo">@drawable/actionbar_space_between_icon_and_title</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+    </style>
 </resources>
